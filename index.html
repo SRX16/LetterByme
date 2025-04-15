@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>letter</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Chyanne.</strong>
+                        <p>
+                          Heyy! I just wanted to take a moment to say thank you. It really means a lot to have had someone like you around during this journey, you honestly helped keep me going by urging me to fix things in my academics. Without you, I would've felt hopeless, and i would have no reason to take action to get this far and visit in baguio. I’m so grateful to you.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
